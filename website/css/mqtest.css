@@ -1,0 +1,13 @@
+@media (min-width: 650px){
+
+main{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media (min-width:800px){
+
+    main{display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+nav > ul {list-style: none;}

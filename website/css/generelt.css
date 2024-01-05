@@ -1,0 +1,248 @@
+
+
+/*************** Reset *********************/
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Karma", serif;
+    font-size: 1rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /*************** Fonts *********************/
+  
+  @font-face {
+    font-family: Italic;
+    src: url(../fonts/italic.woff2);}
+    @font-face {
+        font-family: Ubundu;
+        src: url(../fonts/Ubundu.woff2);}
+
+  /*************** Farver *********************/
+  
+  .color1 {
+    color: antiquewhite ;
+  }
+  .color2 {
+    color:cadetblue;
+  }
+  .color3 {
+    color:burlywood;
+  }
+  .color4 {
+    color:darkslategrey;
+  }
+  .color5 {
+    color:cadetblue;
+  }
+  
+  .bg_color1 {
+    background-color: burlywood;
+  }
+  .bg_color2 {
+    background-color: antiquewhite;
+  }
+  .bg_color3 {
+    background-color: cadetblue;
+  }
+  .bg_color4 {
+    background-color: #31afcf;
+  }
+  .bg_color5 {
+    background-color: pink;
+  }
+  
+  /*************** Menu *********************/
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 1rem 2rem;
+    position: sticky;
+    align-items: baseline;
+  }
+  
+  header .logo a {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: cadetblue;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+  
+  /*************** Overskrifter *********************/
+  
+  .forside_h1 {
+    font-size: 4rem;
+  }
+  
+  h1 {
+    color: antiquewhite;
+    background-color: pink;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "Trirong", serif;
+    text-shadow: 2px 4px 4px cadetblue;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: "loraitalic";
+    color: cadetblue;
+    padding: 1px;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    margin: 10px;
+  }
+  
+  h3 {
+    font-family: "loraitalic";
+    color: antiquewhite;
+    margin: 10px;
+  }
+  
+  /*************** Design *****************/
+  
+  body {
+    background-color: lightpink;
+  }
+  
+  main {
+    background-color: pink;
+    margin: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+    color: cadetblue;
+    margin: 10px;
+  }
+  
+  .min_computer {
+    margin-bottom: 1rem;
+    color:cadetblue;
+  }
+  
+  header {
+    background-color: lightblue;
+    padding: 1rem;
+  }
+  
+  .design_list {
+    color: #34b17f;
+    text-shadow: 1px 1px 4px pink;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 10px;
+  }
+  
+  dl {
+    background-color: lightblue;
+    padding: 1rem;
+    color: cadetblue;
+    text-shadow: 1px 1px 4px lightpink;
+  }
+  
+  dd {
+    font-weight: bolder;
+    font-size: large;
+    text-indent: 27px;
+  }
+  
+  footer {
+    margin: 0rem;
+    padding-inline: 1rem;
+    text-align: right;
+    background-color: lightblue;
+    margin-top: 40px;
+  }
+  
+  .footer {
+    color:cadetblue;
+    font-style: italic;
+  }
+  
+  .cta {
+    background-color: cadetblue;
+    padding: 0.5rem;
+    color: lightblue;
+    text-decoration: none;
+    margin: 1rem;
+    gap: 10px;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  .cta:hover {
+    background-color: palevioletred;
+  }
+  
+  /*------------------Komponenter - mobil-----------------*/
+  .komp_img1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .komp_img2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .komp_img3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /*------------------Operativsystemer - mobil-----------------*/
+  
+  .placering_mac {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .placering_windows {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .placering_tablet {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .dl_placering {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    nav {
+      display: none;
+    }
+  }
+  
